@@ -1,0 +1,76 @@
+.formContainer {
+  background: linear-gradient(90deg, #8ad2df, #06c1f0);
+  border: none;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  width: 97.5vw;
+  margin-right: 1rem;
+}
+
+
+.form label {
+  display: block;
+  width: 100%;
+  border: none;
+  border-radius: 0.5rem;
+  font-family: fantasy;
+  text-shadow: 1px 1px black;
+  font-size: 1.1rem;
+}
+
+
+.form input,
+.form textarea {
+  display: block;
+  width: 100%;
+  border: none;
+  border-radius: 0.5rem;
+  font-size: 1.1rem;
+  padding: 0.5rem;
+  background-color: #8ad2df;
+  box-shadow: 1px 1px 15px rgb(107, 151, 218);
+  outline: none;
+  color: #080808;
+  margin: 0.5rem 0;
+}
+
+
+
+.actions {
+  display: flex;
+  gap: 1rem;
+  justify-content: flex-end;
+  
+}
+
+.actions button {
+  border: none;
+  border-radius: 0.5rem;
+
+  font: inherit;
+  cursor: pointer;
+  padding: 0.5rem 1.5rem;
+  background-color: var(--color-gray-300);
+  color: var(--color-gray-800);
+  border: none;
+  font-family: fantasy;
+  text-shadow: 1px 1px rgb(253, 253, 253);
+  font-size: 1.1rem;
+}
+
+.actions button[type='button'] {
+  background-color: transparent;
+  color: var(--color-gray-300);
+  font-family: fantasy;
+  text-shadow: 1px 1px black;
+  font-size: 1.1rem;
+}
+
+.actions button:hover {
+  background-color:  #e99b0b
+}
+
+.actions button[type='button']:hover {
+  background-color: var(--color-gray-800);
+}

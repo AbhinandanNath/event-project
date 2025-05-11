@@ -1,0 +1,43 @@
+.homePage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 83vh;
+    width: 97.5%;
+    background: linear-gradient(135deg, #6dd5ed, #2193b0);
+    color: white;
+    font-family: fantasy;
+    text-shadow: 1px 1px black;
+    text-align: center;
+    margin: auto;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    top: 6rem !important;
+}
+.heroSection {
+    margin-bottom: 2rem;
+}
+
+.title {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.subtitle {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+.content {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    max-width: 800px;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}

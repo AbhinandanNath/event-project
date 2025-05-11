@@ -1,0 +1,86 @@
+.errorPage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 98vw;
+    overflow-y: auto;
+    height: 73vh;
+    border-radius: 0.5rem;
+    /* background: linear-gradient(90deg, rgb(196, 203, 209), rgb(114, 62, 62)); */
+}
+
+.notFound {
+    background: linear-gradient(90deg, #f0ad4e, #f7c06f);
+}
+
+.notFoundHeading {
+    font-size: 4rem;
+    color: #fff3cd;
+}
+
+.notFoundMessage {
+    font-size: 1.2rem;
+    color: #ffeeba;
+}
+
+/* Styles for 500 errors */
+.serverError {
+    background: linear-gradient(90deg, #d9534f, #e57373);
+    text-shadow: 1px 1px 2px #000000;
+    font-weight: bolder;
+}
+
+.serverErrorHeading {
+    font-size: 4rem;
+    color: #f8d7da;
+    text-shadow: 1px 1px 2px #000000;
+    font-weight: bolder;
+}
+
+.serverErrorMessage {
+    font-size: 1.2rem;
+    color: #f5c6cb;
+    text-shadow: 1px 1px 2px #000000;
+    font-weight: bolder;
+}
+
+/* Styles for generic errors */
+.genericError {
+    background: linear-gradient(90deg, #afc5cc, #ce605c);
+  
+}
+
+.genericErrorHeading {
+    font-size: 4rem;
+    color: #f70303;
+    text-shadow: 1px 1px 2px #000000;
+    font-weight: bolder;
+    animation: bounce 0.5s infinite alternate;
+}
+
+.genericErrorMessage {
+    font-size: 1.2rem;
+    color: #bee5eb;
+    text-shadow: 1px 1px 2px #000000;
+    font-weight: bolder;
+}
+
+/* Generic message styling */
+.genericMessage {
+    font-size: 1rem;
+    color: #ffffff;
+    text-shadow: 1px 1px 2px #000000;
+    font-weight: bolder;
+    margin-top: 1rem;
+}
+
+@keyframes bounce {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-10px);
+    }
+    
+}

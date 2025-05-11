@@ -1,0 +1,96 @@
+.event {
+  display: flex;
+  flex-direction: column;
+  color: #0a0a0a;
+  width: 16.45rem;
+  height: 27rem;
+  padding: 1rem;
+  background: linear-gradient(90deg, #8ad2df, #06c1f0);
+  border: none;
+  border-radius: 0.5rem;
+  gap: 0.5rem;
+  box-shadow: 1px 1px 15px rgb(7, 6, 6);
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+}
+
+.event img {
+  width: 14.6rem;
+  height: 10rem;
+  border-radius: 0.2rem;
+  object-fit: cover;
+  margin: 0rem;
+  border: none;
+  border-radius: 0.5rem;
+}
+
+.event img:hover {
+  transform: scale(1.05);
+  transition: all 0.3s ease-in-out;
+}
+
+.event h1 {
+  font-size: 1.7rem;
+  font-weight: 700;
+  color: #080808;
+  text-shadow: 1px 1px 2px #fafafa;
+  text-align: left;
+  margin: 1rem 0rem 0rem 0rem;
+}
+
+.event p {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #1b1919;
+  text-align: left;
+  margin: 0.5rem 0rem 0rem 0rem;
+}
+
+.actions {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+}
+
+.actions a,
+.actions button {
+  /* padding: 0.25rem 1rem; */
+
+  cursor: pointer;
+
+  background: linear-gradient(90deg, #0cb3d1, #06c1f0);
+  font-family: fantasy;
+  font-size: 1.3rem;
+  font-weight: 600;
+  padding: 0.5rem 1rem;
+  text-shadow: 1px 2px black;
+  border-radius: 0.5rem;
+  box-shadow: 1px 2px 1px black;
+  text-decoration: none;
+  color: white;
+}
+
+.actions button {
+  background-color: transparent;
+  border: none;
+  border-radius: 0.5rem;
+  box-shadow: 1px 2px 1px black;
+  color: rgb(255, 230, 0);
+}
+
+.actions a:hover,
+.actions a:active,
+.actions a.active,
+.actions button:hover,
+.actions button:active,
+.actions button.active {
+  background: linear-gradient(90deg, #05520f, #09be18);
+  color: white;
+  transform: scale(1.05);
+}
+.actions button:hover {
+  background: linear-gradient(90deg, #d4693f, #f30505);
+  color: white;
+}

@@ -1,0 +1,39 @@
+.header {
+  max-width: 1005;
+  margin: auto;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  background: linear-gradient(90deg, rgb(26, 124, 204), rgb(2, 196, 221));
+}
+
+.navList {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1rem;
+}
+
+.navList li {
+  list-style: none;
+}
+.navList a {
+  text-decoration: none;
+  color: white;
+  font-size: 2rem;
+  font-family: fantasy;
+  font-weight: 600;
+  padding: 0.5rem 0.5rem;
+  text-shadow: 1px 2px black;
+  transition: all 0.1s ease-in-out;
+  display: inline-block;
+}
+/* .navList a:hover{
+ transform: scale(1.2,1.2);
+} */
+
+
+.activeMenu {
+  color: #0515f7  !important;
+  border-radius: 0.5rem;
+  text-shadow: 1px 2px black;
+}
